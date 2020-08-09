@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    self.split(/\.+|\?+|\!+/i).count do |sentence| 
+    self.split(/\.|\?+|\!+/i).count do |sentence| 
       !sentence = nil
     end
   end
